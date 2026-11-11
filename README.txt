@@ -1,21 +1,9 @@
-DriverTalk v1.0 – FUNKTIONEL PROTOTYPE (ikke produktionsklar)
+DriverTalk V1.1 – PILOT
 
-Åbn index.html i en browser eller upload alle filer til et GitHub Pages-repository.
-Brug HTTPS og godkend mikrofontilladelsen for at afprøve browserens talegenkendelse.
+GitHub Pages: Upload alle seks filer direkte i repositoryets rodmappe (samme niveau som README), ikke inde i en drivertalk-v11-mappe.
 
-Med:
-- 8 sprog: polsk, rumænsk, ukrainsk, bulgarsk, litauisk, lettisk, estisk, ungarsk
-- 10 faste hverdagsbeskeder på hvert sprog (oversættelser er KLADDER og kræver faglig kontrol)
-- søgning og kategoriopdeling
-- oplæsning via browserens indbyggede speechSynthesis (afhænger af installerede stemmer)
-- talegenkendelse på dansk og chaufførens sprog, hvor browseren understøtter dette
-- eksakt match af dansk tale mod godkendelseskrævende standardbeskeder
-- separat chaufførvisning via delbart link
-- offline cache af faste beskeder efter første indlæsning via HTTPS
+Tilføjet: engelsk, tysk, spansk og italiensk; kompakt mobil-layout; SVG-ikoner; hurtigbeskeder; stor chaufførvisning; talegenkendelse begge veje; præcis match af faste beskeder fra dansk eller chaufførens sprog; forbedret håndtering af oplæsning uden passende stemme.
 
-Ikke med i denne prototype:
-- fri taleoversættelse, oversættelses-API og produktions-backend
-- kvalitetssikrede sikkerhedsbeskeder, kvitteringslog, QR-billedgenerator
-- live samtale mellem to telefoner
+VIGTIGT: Fri taleoversættelse er IKKE tilsluttet, og kan ikke løses med ren GitHub Pages uden oversættelsestjeneste/backend. Oplæsning kræver stemme installeret i browser/enhed. Oversættelserne er testudkast og ikke sikkerhedsgodkendte.
 
-Test ALDRIG prototypen som eneste kommunikationskilde til kritiske sikkerhedsbeskeder.
+Efter upload: Genindlæs appen og luk evt. tidligere gemt PWA, så den nye service worker aktiveres.
