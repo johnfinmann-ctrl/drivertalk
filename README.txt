@@ -1,16 +1,8 @@
-DriverTalk V1.6 – Carletti testversion
+DriverTalk – Nordic Operations v1.0
 
-Formål: enkel kommunikation ved læsserampen med 12 chaufførsprog og faste oversatte sætninger.
-Ingen mikrofon, fri taleoversættelse, API, login eller database.
-Ingen bookingnumre, personoplysninger eller virksomhedsdata indtastes eller gemmes.
-Valgt sprog findes kun i sidens hukommelse under brug, ikke i localStorage.
-Valgfri oplæsning bruger browserens indbyggede speechSynthesis; stemmer kan mangle, og browser/OS kan bruge ekstern talebehandling.
-Brug Vis stort som sikker standardfunktion.
-Oversættelserne er uafprøvede udkast – kræver kvalitetssikring før anvendelse som sikkerhedsinstruktioner.
+Selvstændig kopi baseret på den indsendte DriverTalk v1.22. Ingen Carletti-logoer eller firmanavn i brugerfladen.
+Upload de seks filer i en NY GitHub-repository, ikke Carlettis repository. Aktiver GitHub Pages fra main/root.
 
-GitHub Pages: upload ALLE SEKS filer direkte i repository-roden.
-VIGTIGT: Eksisterende undermappe drivertalk-v1 påvirkes ikke ved upload til roden.
-Appen åbnes derefter på https://johnfinmann-ctrl.github.io/drivertalk/
-Hvis man i stedet uploader filerne i drivertalk-v1, er adressen /drivertalk/drivertalk-v1/
+Faste beskeder på 12 sprog, chaufførsvar og PWA bevaret. Fri oversættelse er IKKE aktiveret: translationEndpoint er tomt. Brug kun en sikker backend, aldrig API-nøgler i config.js.
 
-Offentlig GitHub Pages-side er tilgængelig for alle med linket.
+Vigtigt: Oversættelserne er udkast og bør kontrolleres af sprogkyndige før drift. Test på mobil og tablet før produktion. Kontroller også rettigheder til genbrug af den oprindelige kode.
