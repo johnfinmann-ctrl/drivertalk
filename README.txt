@@ -1,8 +1,6 @@
-DriverTalk – Nordic Operations v1.0
-
-Selvstændig kopi baseret på den indsendte DriverTalk v1.22. Ingen Carletti-logoer eller firmanavn i brugerfladen.
-Upload de seks filer i en NY GitHub-repository, ikke Carlettis repository. Aktiver GitHub Pages fra main/root.
-
-Faste beskeder på 12 sprog, chaufførsvar og PWA bevaret. Fri oversættelse er IKKE aktiveret: translationEndpoint er tomt. Brug kun en sikker backend, aldrig API-nøgler i config.js.
-
-Vigtigt: Oversættelserne er udkast og bør kontrolleres af sprogkyndige før drift. Test på mobil og tablet før produktion. Kontroller også rettigheder til genbrug af den oprindelige kode.
+DriverTalk – Clip-Lok SimPak v1.0 DEMO
+Selvstændig PWA baseret på Nordic Operations-versionen.
+Logoet er et midlertidigt typografisk DEMO-logo, ikke det officielle Clip-Lok-varemærke. Erstat clip-lok-logo.svg med et godkendt logo før levering.
+Alle faste oversættelser er udkast og bør sprogtjekkes før drift.
+Fri oversættelse er ikke aktiveret.
+Upload alle filer i roden af et separat GitHub Pages-repository.

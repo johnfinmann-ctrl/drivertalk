@@ -1,12 +1,12 @@
 {
-  "name": "DriverTalk – Nordic Operations",
+  "name": "DriverTalk – Clip-Lok SimPak (demo)",
   "short_name": "DriverTalk",
   "description": "DriverTalk med faste chaufførbeskeder på 12 sprog",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#eef3f6",
-  "theme_color": "#123D55",
+  "background_color": "#f3f5f5",
+  "theme_color": "#28484c",
   "icons": [
     {
       "src": "icon-192.png",
